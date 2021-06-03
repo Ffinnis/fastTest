@@ -312,7 +312,8 @@ body {
   font-weight: 400;
   background: url("../img/header-background-wave.png") no-repeat 0% 5%,
               url("../img/order-bakcground.png") no-repeat 100% 36%,
-              url("../img/wave-2.png") no-repeat 0 69%;
+              url("../img/wave-2.png") no-repeat 0 69%,
+              url("../img/review-background.png") no-repeat 100% 75%;
   counter-reset: question-counter;
   overflow-x: hidden;
 }
@@ -1283,6 +1284,9 @@ li {
 
 .publication-item{
   margin-right: 20px;
+  &:last-child{
+    margin-right: 0;
+  }
 }
 
 .publication-item__image{
